@@ -3,11 +3,73 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript Code Challenge!</title>
+    <link rel= "stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="container">
+        <div id="start">
+            <p>So you think you can code! Challenge yourself by taking this javascript quiz. Review, brush up on your skills and gage where your skill level is at. But WAIT...its on a timer, you have 2 minutes and to push you a little further if you get a question wrong  your time remaining decreases by 10 seconds. Accept the challenge and view your final score at the end. READY...SET...GO!</p>
+
+            </div>
+            <div id="quiz" style="display: none">
+            <div id="question"></div>
+            <div id="qImg"></div>
+            <div id="answers">
+                <div class="choice" id="A" onclick="checkAnswer('A')"></div>
+                <div class="choice" id="B" onclick="checkAnswer('B')"></div>
+                <div class="choice" id="C" onclick="checkAnswer('C')"></div>
+                <div class="choice" id="D" onclick="checkAnswer('D')"></div>
+            </div>
+            <div id="time">
+                <div id="timer"></div>
+                <div id="btimeGauge"></div>
+                <div id="timeGauge"></div>
+            </div>
+            <div id="progress"></div>
+        </div>
+        <div id="scoreContainer" style="display: none"></div>
+    </div>
+    <script src="script.js"></script>
+
+
+
+
+
+
+
+
+
+    
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- 
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Code Quiz </title>
 </head>
 <body>  
-    <div class="container">
+    <div class="quizContainer">
         <h1 class="welcome">Javascript Code Challenge!</h1>
         <h2 id="timer"></h2>
         <div id="question"></div>
@@ -18,7 +80,19 @@
 
     </div>
 
-    <div id="answerResult"></div>
+    <div id="questionArea">
+        <h2 id="questionPrompt">Placeholder question! I don't know what to put here yet but
+            it's going to be a difficult question.
+        </h2>
+        <button class="btn btn-primary btn-sm btnOption" id="answerA">Wowee</button>
+        <button class="btn btn-primary btn-sm btnOption" id="answerB">Oh boy I'm stumped</button>
+        <button class="btn btn-primary btn-sm btnOption" id="answerC">This quiz is ridiculously hard</button>
+        <button class="btn btn-primary btn-sm btnOption" id="answerD">wdf why this</button>
+    </div>
+
+    <div id="answerResult"></div
+
+    
 
         <div id="endGameBlock">
             <h1>All Done!</h1>
@@ -38,6 +112,6 @@
     </div>
 </div>
 
-    <script src="./script.js"></script>
+    <script src="script.js"></script>
 </body>
-</html>
+</html> -->
