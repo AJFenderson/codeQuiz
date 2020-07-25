@@ -17,6 +17,25 @@
 
 
     </div>
+
+    <div id="answerResult"></div>
+
+        <div id="endGameBlock">
+            <h1>All Done!</h1>
+            <p>Your final score is:</p>
+            <h3 id="showScore">DNF</h3>
+            <form id="submitInitials">
+                <div class="form-group">
+                    <label for="inputInitials">Enter Your Initials</label>
+                    <input type="text" class="form-control" id="playerInitials" value="">
+                </div>
+                <button type="submit" class="btn btn-primary" id="submitButton">Submit</button>
+            </form>
+            <div class="alert alert-danger" id="alertBox" style="display: none;">
+                Please enter your initials!
+            </div>
+        </div>
+    </div>
 </div>
 
     <script src="./script.js"></script>

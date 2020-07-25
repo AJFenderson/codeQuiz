@@ -1,7 +1,11 @@
 var timerEl = document.getElementById("timer");
+var question = document.getElementById("questions");
 var answer = document.getElementById("answer");
 var scores = document.getElementById("scores");
 var users = document.getElementById("initials");
+var time = 10 * questions.length;
+var optionButtons = [document.querySelector("#answerA"), document.querySelector("#answerB"),
+document.querySelector("#answerC"), document.querySelector("#answerD")];
 
 let questions = [
     {
